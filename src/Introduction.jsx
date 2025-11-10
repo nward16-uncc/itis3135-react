@@ -1,9 +1,46 @@
-import Footer from "./Footer";
-import Header from "./header";
 export default function Introduction() {
     document.title += " | Introduction";
     return (<>
-        <h2>Introduction</h2>
-        <p>Example text</p>
+        <figure class="small-image">
+            <img src="images/atl_zoo.jpg" alt="At the Atlanta Zoo with my family" />
+            <figcaption><em>At the Atlanta Zoo with my family</em></figcaption>
+        </figure>
+        <p>
+            I’m currently pursuing a career in cybersecurity. I went to Central Piedmont Community College and attained my 
+            Associate’s Degree in May 2025. I’ve come to UNCC so that I can get a Bachelor’s in Computer Science. In my spare time, 
+            I mostly just watch YouTube, go hiking from time to time, and attempt to grow my skillset so that I can eventually become 
+            a cybersecurity professional.
+        </p>
+
+        <h2>Personal Background</h2>
+        <p>I was born and raised in Waxhaw, NC. I’ve lived around this area my whole life.</p>
+
+        <h2>Professional Background</h2>
+        <p>I’ve worked in wildly different positions. For a time, I did steel fabrication.</p>
+
+        <h2>Academic Background</h2>
+        <p>
+            Currently pursuing a Bachelor of Science in Computer Science, completed Associate in Arts at CPCC. 
+            I’ve also attained a certificate in the UNCC Cybersecurity Bootcamp and a CompTIA Security+ certification.
+        </p>
+
+        <h2>Primary Computer</h2>
+        <p>Lenovo Thinkpad T14 Gen 5 (AMD version), Windows 11, Laptop, Home</p>
+
+        <h2>Courses I’m Taking & Why</h2>
+        <ul>
+            <li>ITIS-3200: Because it is very relevant to the field I wish to enter</li>
+            <li>ITIS-3135: Because I am decent at back-end programming, but not front-end</li>
+            <li>ITSC-2600: Because it’s required for my degree and concentration</li>
+            <li>ITSC-3688: Because I need to improve my soft skills</li>
+            <li>MATH-1242: Because my degree requires it (to my great dissatisfaction)</li>
+        </ul>
+    
+        <h2>Funny/Interesting Item to Remember Me By</h2>
+        <p>I love playing any Halo game that was made before 2010 (CE, 2, 3, ODST, Reach).</p>
+    
+        <blockquote>
+            “There is nothing impossible to him who will try” ~ Alexander the Great
+        </blockquote>
     </>)
 }

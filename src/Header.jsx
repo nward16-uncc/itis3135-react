@@ -5,9 +5,9 @@ export default function Header() {
             <h1>⚛️ Nuclear Whale Technologies ⚛️</h1>
             <nav>
                 <ul>
-                    <li>
-                        <a href="/">Home</a>
-                    </li>
+                    <a href="/">Home</a> | 
+                    <a href="introduction">Introduction</a> | 
+                    <a href="contract">Contract</a>
                 </ul>
             </nav>
         </header>
